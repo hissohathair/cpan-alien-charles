@@ -1,16 +1,24 @@
 Alien-Charles
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+From http://www.charlesproxy.com/
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+    Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that
+    enables a developer to view all of the HTTP traffic between their
+    machine and the Internet. This includes requests, responses and
+    the HTTP headers (which contain the cookies and caching
+    information).
 
+Charles is a shareware application developed by Karl von Randow at
+XK72 Ltd.
+
+Charles also has a Firefox plug-in available. This Firefox plug-in
+allows Charles to automatically take over Firefox's proxy settings
+whilst it is running, and restores them when Charles exits (or the
+user decides to stop proxying through Charles).
+
+This Perl module uses this feature to allow Perl programs to also
+automatically proxy through Charles by mimicing the behaviour of the
+Firefox plug-in.
 
 INSTALLATION
 
