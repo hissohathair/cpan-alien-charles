@@ -1,0 +1,6 @@
+[InputOutput::RequireCheckedSyscalls]
+functions = :builtins
+exclude_functions = print
+
+[Subroutines::RequireArgUnpacking]
+short_subroutine_statements = 2
